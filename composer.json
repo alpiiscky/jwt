@@ -1,0 +1,22 @@
+{
+    "name": "alpiiscky/yii2-jwt-component",
+    "description": "Jwt",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," jwt"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Akhmetov",
+            "email": "akhmetov.dy@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "alpiiscky\\jwt\\": ""
+        }
+    }
+}
